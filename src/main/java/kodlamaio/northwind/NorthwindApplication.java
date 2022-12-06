@@ -2,7 +2,9 @@ package kodlamaio.northwind;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+
+
+
 
 /*import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
@@ -17,7 +19,7 @@ public class NorthwindApplication {
 		SpringApplication.run(NorthwindApplication.class, args);
 	}
 	
-	/*@Bean
+/*	@Bean
    public Docket api() { 
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
